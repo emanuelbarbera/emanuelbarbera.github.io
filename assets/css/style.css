@@ -1638,6 +1638,27 @@ textarea.form-input::-webkit-resizer { display: none; }
     width: max-content;
     margin-left: auto;
   }
+
+  /**
+   * COFFEE
+   */
+
+  .coffee .service-content-box .form-btn {
+    margin-top: 15px;
+    margin-left: 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--orange-yellow-crayola);
+    color: var(--smoky-black);
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: var(--transition-1);
+  }
+
+  .coffee .service-content-box .form-btn:hover {
+    background-color: var(--vegas-gold);
+  }
   
 }
 
